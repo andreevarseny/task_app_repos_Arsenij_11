@@ -6,4 +6,7 @@ const TotalDay = 9;
 
 const dayWork =  totalTime / day;
 const yesOrNot = dayWork <= TotalDay;
-console.log('Успеем {yesOrNot}');
+console.log(`Успеем ${yesOrNot}`);
+
+const totalMoney = totalTime * money;
+console.log(`Стоимость = ${totalMoney} $`);
